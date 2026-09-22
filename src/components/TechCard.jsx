@@ -30,7 +30,7 @@ export default function TechCard({ tech, isAdded, onAdd }) {
   const badgeStyle = BADGE_STYLES[tech.badge] || 'bg-gray-100 text-gray-600'
 
   return (
-    <article className="bg-white rounded-2xl border border-gray-100 card-shadow p-5 flex flex-col">
+    <article className="bg-white rounded-2xl border border-gray-100 card-shadow p-5 flex flex-col transition-transform duration-200 hover:-translate-y-1">
       <div className="flex items-start justify-between mb-4">
         <span className="h-11 w-11 rounded-xl bg-gray-50 border border-gray-100 flex items-center justify-center overflow-hidden">
           <img
