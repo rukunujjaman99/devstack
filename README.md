@@ -62,6 +62,9 @@ src/
   App.jsx              # data fetching, stack state, toast wiring
   main.jsx
 public/
+  assets/
+    logo.png              # brand logo (navbar + footer)
+    banner-stack.png       # hero banner illustration
   data/technologies.json   # technology dataset (fetched at runtime)
 ```
 

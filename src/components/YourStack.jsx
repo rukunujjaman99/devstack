@@ -2,7 +2,7 @@ export default function YourStack({ stack, onRemove, onRemoveAll }) {
   const count = stack.length
 
   return (
-    <aside className="xl:w-80 w-full xl:sticky xl:top-24 h-fit">
+    <aside className="lg:w-80 w-full lg:sticky lg:top-24 h-fit">
       <div className="bg-white rounded-2xl border border-gray-100 card-shadow p-5">
         <h3 className="font-display font-semibold text-lg text-ink">Your Stack</h3>
         <p className="text-sm text-gray-400 mb-4">

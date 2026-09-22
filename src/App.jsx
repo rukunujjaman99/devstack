@@ -80,7 +80,7 @@ export default function App() {
             Couldn't load technologies right now. Please refresh the page.
           </p>
         ) : (
-          <div className="flex flex-col xl:flex-row gap-6 items-start">
+          <div className="flex flex-col lg:flex-row gap-6 items-start">
             <div className="flex-1 w-full">
               <TechGrid technologies={technologies} stackIds={stackIds} onAdd={handleAdd} />
             </div>

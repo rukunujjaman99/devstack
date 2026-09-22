@@ -9,13 +9,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-5 md:px-8 py-14">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <a href="#home" className="flex items-center gap-2 mb-3">
-              <span className="h-8 w-8 rounded-lg bg-brand-gradient flex items-center justify-center text-white font-display font-bold text-sm">
-                DS
-              </span>
-              <span className="font-display font-bold text-lg text-ink">
-                Dev <span className="text-brand-gradient">Stack</span>
-              </span>
+            <a href="#home" className="inline-flex items-center mb-3">
+              <img src="/assets/logo.png" alt="Dev Stack" className="h-8 w-auto" />
             </a>
             <p className="text-sm text-gray-500 leading-relaxed max-w-xs mb-4">
               Curated tools, technologies, and resources for developers building modern
